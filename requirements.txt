@@ -1,0 +1,20 @@
+#Utilities
+numpy
+pandas
+
+# Face recognition
+dlib-bin  # for face detection and recognition in square brackets
+scikit-learn  # working for classification and regression tasks
+
+git+https://github.com/ageitgey/face_recognition_models
+
+setuptools<70.0.0 #using for packaging and distribution of Python projects
+
+supabase  # using for database management and authentication
+bcrypt   # using for password hashing and verification
+
+segno  # using for generating QR codes
+pillow # using for image processing and manipulation
+
+
+streamlit  # using for building interactive web applications

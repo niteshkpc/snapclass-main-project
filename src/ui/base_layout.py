@@ -27,8 +27,9 @@ def style_background_dashboard():
                     background: #E0E3FF !important;
                 }
         </style>
-                """
-            ,unsafe_allow_html=True)
+            """
+            ,unsafe_allow_html=True
+            )
 
 
 def style_base_layout():
@@ -51,12 +52,31 @@ def style_base_layout():
                 font-size: 3.5rem !important;
                 line-height: 1.1 !important;
                 margin-bottom: 0rem !important;
+
             }
 
             h3, h4, p{
                 font-family: 'Outfit', sans-serif;
             }
+            /*EXTRA*/
+            /* Make input labels black */
+            div[data-testid="stTextInput"] label,
+            div[data-testid="stTextInput"] label p {
+                color: black !important;
+                }
 
+            /* Make typed text black */
+            div[data-testid="stTextInput"] input {
+                color: black !important;
+                background-color: white !important;
+                }
+
+            /* Make placeholder text dark grey */
+            div[data-testid="stTextInput"] input::placeholder {
+                color: #555555 !important;
+                opacity: 1 !important;
+                }
+            /*EXTRA*/
 
             h2 {
                 font-family: 'Climate Crisis', sans-serif !important;

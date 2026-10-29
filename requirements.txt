@@ -1,4 +1,5 @@
 #Utilities
+streamlit  # using for building interactive web applications
 numpy
 pandas
 
@@ -17,4 +18,8 @@ segno  # using for generating QR codes
 pillow # using for image processing and manipulation
 
 
-streamlit  # using for building interactive web applications
+
+
+librosa   # Both library use for voice recognition
+
+resemblyzer  

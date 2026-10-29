@@ -2,8 +2,7 @@ import streamlit as st
 
 def header_home():
 
-    logo_url = "https://i.ibb.co/0F7Z1kL/snap-class-logo.png"  # Replace with your logo URL
-
+    logo_url ="https://i.ibb.co/YTYGn5qV/logo.png"    
     st.markdown(
         f"""
         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 30px; margin-top: 30px;">
@@ -15,7 +14,7 @@ def header_home():
     )
 
 def header_dashboard():
-    logo_url = "https://i.ibb.co/0F7Z1kL/snap-class-logo.png"  # Replace with your logo URL
+    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"  # Replace with your logo URL
 
     st.markdown(
         f"""

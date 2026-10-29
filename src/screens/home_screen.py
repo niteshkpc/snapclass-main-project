@@ -17,7 +17,7 @@ def home_screen():
             "<h2 style='color: black;'>I'm Student</h2>",
             unsafe_allow_html=True
         )
-        st.image("https://i.ibb.co/0F7Z1kL/snap-class-logo.png", width=120)
+        st.image("Logo_for_snapclass/cartoon.png", width=120)
         if st.button("Student Portal", type="primary", icon=":material/arrow_outward:", icon_position="right"):
             st.session_state['login_type'] = 'student'
             st.rerun()
@@ -26,7 +26,7 @@ def home_screen():
             "<h2 style='color: black;'>I'm Teacher</h2>",
             unsafe_allow_html=True
         )
-        st.image("https://i.ibb.co/0F7Z1kL/snap-class-logo.png", width=120)
+        st.image("Logo_for_snapclass/prof.png", width=160)
         if st.button("Teacher Portal", type="primary", icon=":material/arrow_outward:", icon_position="right"):
             st.session_state['login_type'] = 'teacher'
             st.rerun()
